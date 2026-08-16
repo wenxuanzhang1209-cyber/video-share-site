@@ -6,6 +6,10 @@
 
 # Video Room
 
+## 界面预览
+
+![Video Room 界面](docs/screenshots/home.png)
+
 一个只有视频播放器的静态分享页；二维码单独生成并在聊天中提供，不放进网页。
 
 ## 本地预览
