@@ -6,6 +6,8 @@
 
 # Video Room
 
+> **English overview** · A minimal static single-video sharing page. The QR code is generated separately and shared in chat instead of being embedded in the page. Local preview: `npm install && npm run build:qr && python3 -m http.server 4173`.
+
 ## 界面预览
 
 ![Video Room 界面](docs/screenshots/home.png)
