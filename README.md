@@ -1,3 +1,9 @@
+<p align="left">
+  <img src="https://github.com/wenxuanzhang1209-cyber/video-share-site/actions/workflows/ci.yml/badge.svg" />
+  <img src="https://img.shields.io/github/license/wenxuanzhang1209-cyber/video-share-site" />
+  <img src="https://img.shields.io/github/v/release/wenxuanzhang1209-cyber/video-share-site?label=release" />
+</p>
+
 # Video Room
 
 一个只有视频播放器的静态分享页；二维码单独生成并在聊天中提供，不放进网页。
