@@ -1,0 +1,17 @@
+{
+  "name": "video-share-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:qr": "node scripts/generate-qr.mjs",
+    "bundle:qr": "browserify node_modules/qrcode/lib/browser.js --standalone QRCode -o vendor/qrcode.js",
+    "prepare:site": "npm run bundle:qr && npm run build:qr"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.2"
+  }
+}
