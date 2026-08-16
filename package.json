@@ -12,6 +12,6 @@
     "qrcode": "^1.5.4"
   },
   "devDependencies": {
-    "browserify": "^16.5.2"
+    "browserify": "^17.0.1"
   }
 }
